@@ -1,0 +1,34 @@
+.nameLbl
+{
+    -fx-font-size: 16px;
+    -fx-wrap-text: true;
+    -fx-label-padding: 7px 7px 0 7px;
+}
+.authorLbl
+{
+    -fx-label-padding: 7px;
+}
+.priceLbl
+{
+    -fx-label-padding: 0 7px 7px 7px 7px;
+    -fx-font-weight: 900;
+}
+.imgView
+{
+    -fx-padding: 7px;
+}
+.priceAndBtn
+{
+    -fx-spacing: 15px;
+    -fx-alignment: center;
+    -fx-pref-width: 400px;
+}
+.item
+{
+    -fx-padding: 5px;
+    -fx-max-height: 200px;
+}
+.green
+{
+    -fx-background-color: green;
+}
