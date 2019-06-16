@@ -485,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559489290862</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed search">
+      <created>1560723945854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560723945854</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -559,7 +566,8 @@
     <MESSAGE value="&quot;added images update&quot;" />
     <MESSAGE value="added sorting and partially books load. &#10;TODO: supress ConcurrentModificationException" />
     <MESSAGE value="supressed concurrency exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="supressed concurrency exceptions" />
+    <MESSAGE value="fixed search" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed search" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
