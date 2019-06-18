@@ -129,10 +129,13 @@ public class MainController
                             while(!isCancelled())
                             {
                                 List<Book> books = p.parseBooks(blocks,i++);
-                                if(!isCancelled() && books.size() != 0)
+                                if(!isCancelled())
                                     addF(books);
-                                else
+                                if(books.size() == 0)
+                                {
+                                    addF(books);
                                     break;
+                                }
                             }
                             return null;
                         }
@@ -153,6 +156,11 @@ public class MainController
     private void trackedBooks()
     {
         SQL sql = new SQL();
+        for (Service<Void> s:searchServices)
+        {
+            s.cancel();
+        }
+        searchServices.clear();
         booksList.clear();
 
         SimpleDateFormat date = new SimpleDateFormat("dd/MM/yyyy");

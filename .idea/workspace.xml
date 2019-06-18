@@ -7,65 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="fixed search">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaFxApplication_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_27_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFxApplication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parser.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaFxApplication_jar/JavaFxApplication.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/MainController$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/MainController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/MainController$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/MainController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/Parser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/ResElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/SQL$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/SQL$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/SQL$2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/SQL$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/SQL.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/StatisticsController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/StatisticsController$VBoxContainer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/classes/StatisticsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/fxmlAndCss/about.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/fxmlAndCss/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/fxmlAndCss/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/fxmlAndCss/statistics.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/resources/SQLdb.s3db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/resources/empty.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/resources/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/ResElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/SQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/StatisticsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fxmlAndCss/about.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fxmlAndCss/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fxmlAndCss/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fxmlAndCss/statistics.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/SQLdb.s3db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/empty.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Parser.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_27_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFxApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFxApplication.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/resources/SQLdb.s3db" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/resources/SQLdb.s3db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/SQLdb.s3db" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/SQLdb.s3db" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,11 +96,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="63" column="53" lean-forward="true" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+            <state relative-caret-position="137">
+              <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2210">
-              <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+            <state relative-caret-position="114">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classes/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+            <state relative-caret-position="272">
+              <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -180,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/SQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="124" column="33" lean-forward="true" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+            <state relative-caret-position="1870">
+              <caret line="124" column="33" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -264,10 +216,10 @@
         <option value="$PROJECT_DIR$/src/classes/PriceStat.java" />
         <option value="$PROJECT_DIR$/src/classes/ResElement.java" />
         <option value="$PROJECT_DIR$/src/classes/StatisticsController.java" />
-        <option value="$PROJECT_DIR$/src/classes/Parser.java" />
-        <option value="$PROJECT_DIR$/src/classes/MainController.java" />
         <option value="$PROJECT_DIR$/src/classes/SQL.java" />
         <option value="$PROJECT_DIR$/src/classes/Main.java" />
+        <option value="$PROJECT_DIR$/src/classes/Parser.java" />
+        <option value="$PROJECT_DIR$/src/classes/MainController.java" />
       </list>
     </option>
   </component>
@@ -288,41 +240,35 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="bookFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="BookFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookFinder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bookFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="BookFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookFinder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bookFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="BookFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookFinder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bookFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="BookFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookFinder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fxmlAndCss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookFinder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,8 +284,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556653917995" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="/opt/SceneBuilder/SceneBuilder" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/sqlite-jdbc-3.7.2.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -391,7 +337,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="classes.Main" />
       <module name="JavaFxApplication" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;$USER_HOME$/Java/javafx-sdk-12.0.1/lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classes.*" />
@@ -508,9 +454,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1282" height="771" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2358643" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2394822" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -520,7 +467,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32662538" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32608697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -593,31 +540,31 @@
     <entry file="jar://C:/Program Files/Java/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/javafx/scene/image/Image.class" />
     <entry file="jar://C:/Program Files/Java/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/javafx/scene/image/ImageView.class" />
     <entry file="file://$PROJECT_DIR$/src/fxmlAndCss/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/javafx/geometry/Rectangle2D.class" />
     <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.sql/java/sql/Connection.java" />
     <entry file="jar://C:/Program Files/Java/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/com/sun/javafx/fxml/MethodHelper.class" />
     <entry file="file://$PROJECT_DIR$/src/fxmlAndCss/statistics.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="244" lean-forward="true" selection-start-line="8" selection-start-column="244" selection-end-line="8" selection-end-column="244" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fxmlAndCss/about.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="147" selection-start-line="8" selection-start-column="147" selection-end-line="8" selection-end-column="147" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/javafx/scene/canvas/GraphicsContext.class" />
     <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/util/Comparator.java" />
@@ -669,31 +616,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Java/javafx-sdk-12.0.1/lib/javafx.graphics.jar!/javafx/concurrent/Service.class">
+    <entry file="jar://$USER_HOME$/Java/javafx-sdk-12.0.1/lib/javafx.graphics.jar!/javafx/concurrent/Service.class" />
+    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/Executor.java" />
+    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java" />
+    <entry file="file://$PROJECT_DIR$/src/classes/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="177" column="21" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="21" />
+        <state relative-caret-position="137">
+          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/Executor.java">
+    <entry file="file://$PROJECT_DIR$/src/classes/SQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="123" column="17" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26571">
-          <caret line="1640" column="51" selection-start-line="1640" selection-start-column="51" selection-end-line="1640" selection-end-column="51" />
+        <state relative-caret-position="1870">
+          <caret line="124" column="33" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        <state relative-caret-position="114">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -702,28 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/SQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="124" column="33" lean-forward="true" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="63" column="53" lean-forward="true" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -792,7 +721,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>sqlite-jdbc-3.27.2.1</last-edited>
+          <last-edited>sqlite-jdbc-3.7.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

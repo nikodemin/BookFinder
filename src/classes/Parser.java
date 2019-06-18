@@ -148,6 +148,9 @@ public class Parser
     public List<Book> parseBooks(Elements blocks, int begin)
     {
         List<Book> books = new ArrayList<>();
+        if (blocks == null)
+            return books;
+
         blocks.stream().skip(begin*5).limit(5).forEach(b->{
             String str;
             Book book = new Book();
