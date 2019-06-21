@@ -65,18 +65,19 @@ public class Parser
             int responseCode= conn.getResponseCode();
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
 
-            if (responseCode == 200) {
+            if (responseCode == 200)
+            {
                 InputStream is = conn.getInputStream();
 
                 byte[] buffer = new byte[8192];
                 int bytesRead;
-                while ((bytesRead = is.read(buffer)) != -1) {
+                while ((bytesRead = is.read(buffer)) != -1)
                     baos.write(buffer, 0, bytesRead);
-                }
-                System.out.println("REQUEST="+reqBody);
-                System.out.println("ISBN="+new String(baos.toByteArray(), "UTF-8"));
+
                 return new String(baos.toByteArray(), "UTF-8");
-            } else {
+            }
+            else
+            {
                 throw new Exception("ISBN not found! Response code:"+responseCode);
             }
         } catch (Exception e) {
