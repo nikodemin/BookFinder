@@ -10,7 +10,6 @@ public class Book
     public String ISBN;
 
     public Book(){}
-    public Book(String inName) {name = inName;}
 
     @Override
     public String toString()

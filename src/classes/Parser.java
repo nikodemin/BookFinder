@@ -7,7 +7,13 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.*;
 
 public class Parser
@@ -23,7 +29,7 @@ public class Parser
     private String pathtoISBN;
     private String delimiter;
 
-    public static Map<String,Parser> parsers;
+    public static Map<String,Parser> parsers = new HashMap<>();;
 
     Parser(String url, String blockPath, String nameRelPath, String imgRelPath,
            String priceRelPath, String authorRelPath,String bookRelPath,
@@ -40,51 +46,43 @@ public class Parser
         this.pathtoISBN = pathtoISBN;
     }
 
-    public String getISBN(String url)
+    public String getISBN(String site)
     {
+        String reqBody = site +"|||"+ pathtoISBN;
         try
         {
-            doc  = Jsoup.connect(url)
-                    .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64;" +
-                            " x64; rv:25.0) Gecko/20100101 Firefox/25.0")
-                    .referrer("http://www.google.com").get();
-        } catch (IOException e)
-        {
+            URL url = new URL("http://localhost:8080/getISBN");
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            conn.setRequestMethod("POST");
+            conn.setDoOutput(true);
+            conn.setDoInput(true);
+
+            conn.setRequestProperty("Content-type", "text/html");
+            OutputStream os = conn.getOutputStream();
+            os.write(reqBody.getBytes("UTF-8"));
+
+            conn.connect();
+            int responseCode= conn.getResponseCode();
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+
+            if (responseCode == 200) {
+                InputStream is = conn.getInputStream();
+
+                byte[] buffer = new byte[8192];
+                int bytesRead;
+                while ((bytesRead = is.read(buffer)) != -1) {
+                    baos.write(buffer, 0, bytesRead);
+                }
+                System.out.println("REQUEST="+reqBody);
+                System.out.println("ISBN="+new String(baos.toByteArray(), "UTF-8"));
+                return new String(baos.toByteArray(), "UTF-8");
+            } else {
+                throw new Exception("ISBN not found! Response code:"+responseCode);
+            }
+        } catch (Exception e) {
             e.printStackTrace();
         }
-
-        Elements elements = doc.select(pathtoISBN);
-        if(url.startsWith("https://www.bookvoed.ru"))
-        {
-            for (Element e: elements)
-            {
-                if(e.getElementsByClass("vw").first().text().equals("ISBN:"))
-                {
-                    return e.getElementsByClass("ww").first().text();
-                }
-            }
-        }
-        if(url.startsWith("https://www.spbdk.ru"))
-        {
-            for (Element e: elements)
-            {
-                if (e.getElementsByClass("params__title").first()
-                        .getElementsByTag("span").text().equals("ISBN"))
-                {
-                    return e.getElementsByClass("params__value").first()
-                            .getElementsByTag("span").text();
-                }
-            }
-        }
-        if(url.startsWith("https://www.labirint.ru"))
-        {
-            if(doc.selectFirst(pathtoISBN) == null)
-                return "";
-            if(doc.selectFirst(pathtoISBN).text().length()<6+17)
-                return doc.selectFirst(pathtoISBN).text();
-            return doc.selectFirst(pathtoISBN).text().substring(6,6+17);
-        }
-        return "";
+            return null;
     }
 
     public static String parseNums(String str)
