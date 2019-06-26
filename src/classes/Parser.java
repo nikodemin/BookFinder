@@ -51,7 +51,7 @@ public class Parser
         String reqBody = site +"|||"+ pathtoISBN;
         try
         {
-            URL url = new URL("http://localhost:8080/getISBN");
+            URL url = new URL("https://booksfinderserver.herokuapp.com/getISBN");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setDoOutput(true);

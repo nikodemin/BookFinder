@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class JsonReader
 {
-   private static final String settingsSite = "http://localhost:8080/getSettings";
+   private static final String settingsSite = "https://booksfinderserver.herokuapp.com/getSettings";
 
    public static JsonArray getParsers()
    {
